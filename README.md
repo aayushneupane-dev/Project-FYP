@@ -1,6 +1,6 @@
-# 🚗 FlexRide - Rent to Earn
+# 🚗 ShareRide - Rent to Earn
 
-FlexRide is a responsive single-page web platform that connects licensed drivers and riders with affordable rental vehicles for ride-sharing and delivery services.
+ShareRide is a responsive single-page web platform that connects licensed drivers and riders with affordable rental vehicles for ride-sharing and delivery services.
 
 ---
 
