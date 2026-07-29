@@ -1,41 +1,42 @@
-# 🚗 ShareRide - Rent to Earn
+🚗 ShareRide - Vehicle Rental Platform for Gig Workers
+ShareRide is a web platform designed to help drivers and riders rent vehicles for gig work. It provides an easy way for people who have a valid driver's license—but no vehicle of their own—to rent cars, scooters, bikes, or vans and start earning money.
 
-ShareRide is a responsive single-page web platform that connects licensed drivers and riders with affordable rental vehicles for ride-sharing and delivery services.
+📌 Project Overview
+In many regions, many people hold a valid driver's license but cannot afford to buy a personal vehicle. At the same time, gig platforms like Pathao, InDrive, Uber, and Foodmandu offer flexible earning opportunities.
 
----
+FlexRide bridges this gap by providing an affordable and accessible vehicle rental system. Through a clean interface, users can browse available vehicles, filter them based on their job requirements, calculate rental costs in real-time, and apply for a vehicle within minutes.
 
-## 📌 Overview
+✨ Features
+Simple Navigation & Layout: Clean header, hero section, and responsive design that works smoothly on phones, tablets, and desktop computers.
 
-Many individuals have a valid driver's license but lack a vehicle to work on gig platforms like Pathao, InDrive, Uber, or Foodmandu. **FlexRide** solves this by providing an easy-to-use rental catalog featuring:
+Smart Category Filters: Users can quickly filter vehicles based on the type of work they plan to do:
 
-- **Work-based category filtering:** Easily find vehicles tailored for delivery or passenger rides.
-- **Dynamic pricing:** Automatic rental cost calculations based on selected days.
-- **Integrated checkout form:** Includes license verification and popular local payment options (**eSewa** and **Khalti**).
+Food / Parcel Delivery: Lightweight scooters, commuter bikes, and cargo vans.
 
----
+Ride-Sharing: Comfortable sedans and passenger vehicles approved for taxi services.
 
-## ✨ Features
+All Vehicles: Displays the complete fleet available for rent.
 
-- **Responsive Header & Hero:** Clean navigation with a modern design layout across all devices.
-- **Category Filtering:** Filter vehicles by *Food / Parcel Delivery*, *Ride-Sharing*, or *All Vehicles*.
-- **Vehicle Catalog Cards:** Displays daily rental rates in NPR (`Rs.`), vehicle descriptions, and work tags.
-- **Booking Modal:**
-  - Automatically loads the chosen vehicle details.
-  - Dynamically calculates the total price based on rental duration.
-  - Includes input validation for full name, phone number, license number, and target platform.
-  - Radio buttons to select payment via **eSewa** or **Khalti**.
-- **Modern UI:** Built with glassmorphism, smooth animations, and clean hover states using pure CSS.
+Detailed Vehicle Cards: Each vehicle card displays daily rental rates in Nepalese Rupees (Rs.), vehicle descriptions, and specialized work badges.
 
----
+Interactive Application Modal:
 
-## 🛠️ Tech Stack
+Auto-fills the name of the vehicle selected by the user.
 
-- **HTML5:** Semantic structural markup and form controls.
-- **CSS3:** Flexbox, CSS Grid, media queries, CSS variables, and keyframe animations.
-- **JavaScript (ES6+):** Vanilla JavaScript for filtering, modal state management, and real-time price calculations.
+Dynamic price calculator that automatically updates the total cost when the user changes the number of rental days.
 
----
+Form inputs for user details, contact information, driver's license number, and intended gig platform.
 
+Easy option selection for local digital wallets (eSewa and Khalti).
+
+🛠️ Tech Stack
+This project is built using fundamental web technologies, ensuring high performance, quick loading times, and zero external framework dependencies:
+
+HTML5: Used for writing semantic page structure, form elements, and modal layouts.
+
+CSS3: Used for visual styling, layout management (Flexbox & CSS Grid), smooth hover effects, responsive breakpoints, and modern background blur effects.
+
+JavaScript (ES6+): Pure Vanilla JavaScript used to handle category filtering, open/close modal popups, validate inputs, and handle real-time price calculations.
 ## 📂 File Structure
 
 ```text
