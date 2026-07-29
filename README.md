@@ -1,45 +1,174 @@
-🚗 ShareRide - Vehicle Rental Platform for Gig Workers
-ShareRide is a web platform designed to help drivers and riders rent vehicles for gig work. It provides an easy way for people who have a valid driver's license—but no vehicle of their own—to rent cars, scooters, bikes, or vans and start earning money.
+# 🚗 Share Ride
 
-📌 Project Overview
-In many regions, many people hold a valid driver's license but cannot afford to buy a personal vehicle. At the same time, gig platforms like Pathao, InDrive, Uber, and Foodmandu offer flexible earning opportunities.
+> **Drive. Earn. Grow.**
 
-FlexRide bridges this gap by providing an affordable and accessible vehicle rental system. Through a clean interface, users can browse available vehicles, filter them based on their job requirements, calculate rental costs in real-time, and apply for a vehicle within minutes.
+**Share Ride** is a modern, responsive vehicle rental platform that connects licensed drivers with rental vehicles for ride-sharing and delivery services. Whether you're driving for Pathao, InDrive, food delivery, or parcel services, Share Ride helps you start earning without owning a vehicle.
 
-✨ Features
-Simple Navigation & Layout: Clean header, hero section, and responsive design that works smoothly on phones, tablets, and desktop computers.
+---
 
-Smart Category Filters: Users can quickly filter vehicles based on the type of work they plan to do:
+## ✨ Features
 
-Food / Parcel Delivery: Lightweight scooters, commuter bikes, and cargo vans.
+- 🚗 Browse vehicles for different work categories
+- 🔍 Filter vehicles by ride-sharing or delivery
+- 📱 Fully responsive design
+- 🎨 Modern and clean user interface
+- 📝 Interactive booking form
+- 💰 Automatic rental price calculation
+- 💳 Payment method selection
+  - eSewa
+  - Khalti
+- ⚡ Smooth animations and transitions
+- ✅ Form validation using JavaScript
+- 📦 Built with pure HTML, CSS, and JavaScript
 
-Ride-Sharing: Comfortable sedans and passenger vehicles approved for taxi services.
+---
 
-All Vehicles: Displays the complete fleet available for rent.
+## 📸 Preview
 
-Detailed Vehicle Cards: Each vehicle card displays daily rental rates in Nepalese Rupees (Rs.), vehicle descriptions, and specialized work badges.
+> Add screenshots of your project here.
 
-Interactive Application Modal:
+```
+Homepage
+Vehicle Selection
+Booking Modal
+Payment Selection
+```
 
-Auto-fills the name of the vehicle selected by the user.
+---
 
-Dynamic price calculator that automatically updates the total cost when the user changes the number of rental days.
+## 🛠️ Tech Stack
 
-Form inputs for user details, contact information, driver's license number, and intended gig platform.
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
-Easy option selection for local digital wallets (eSewa and Khalti).
+---
 
-🛠️ Tech Stack
-This project is built using fundamental web technologies, ensuring high performance, quick loading times, and zero external framework dependencies:
+## 📂 Project Structure
 
-HTML5: Used for writing semantic page structure, form elements, and modal layouts.
+```
+Share-Ride/
+│
+├── index.html
+└── README.md
+```
 
-CSS3: Used for visual styling, layout management (Flexbox & CSS Grid), smooth hover effects, responsive breakpoints, and modern background blur effects.
+---
 
-JavaScript (ES6+): Pure Vanilla JavaScript used to handle category filtering, open/close modal popups, validate inputs, and handle real-time price calculations.
-## 📂 File Structure
+## 🚀 Getting Started
 
-```text
-.
-├── index.html       # Single file containing HTML, CSS styles, and JavaScript logic
-└── README.md        # Project documentation
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/share-ride.git
+```
+
+### 2. Open the project
+
+Simply open **index.html** in your browser.
+
+No installation or dependencies are required.
+
+---
+
+## 🚙 Available Vehicles
+
+| Vehicle | Category | Price |
+|---------|----------|--------|
+| City Scooter 125cc | Food & Parcel Delivery | Rs. 2,000/day |
+| Sedan Comfort | Ride Sharing | Rs. 3,500/day |
+| Standard Commuter Bike | Multi-Purpose | Rs. 1,800/day |
+| Compact Van 1.5T | Delivery | Rs. 5,000/day |
+| Luxury SUV | Ride Sharing | Rs. 7,000/day |
+
+---
+
+## 📖 How It Works
+
+1. Browse available vehicles.
+2. Select your preferred work category.
+3. Choose a vehicle.
+4. Fill out the rental application.
+5. Enter the rental duration.
+6. View the total rental cost.
+7. Select a payment method.
+8. Proceed with your booking.
+
+---
+
+## 🌟 Key Features
+
+- Responsive Layout
+- Vehicle Category Filtering
+- Dynamic Price Calculator
+- Booking Modal
+- Payment Method Selection
+- Clean UI/UX
+- Mobile Friendly
+- Lightweight (No Frameworks)
+
+---
+
+## 🔮 Future Enhancements
+
+- User Authentication
+- Admin Dashboard
+- Vehicle Availability Tracking
+- Online Payment Gateway Integration
+- Booking History
+- Email Confirmation
+- Vehicle Images
+- Search Functionality
+- GPS Tracking
+- Rating & Review System
+
+---
+
+## 📱 Responsive Design
+
+Optimized for:
+
+- 💻 Desktop
+- 🖥️ Laptop
+- 📱 Mobile
+- 📲 Tablet
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Push to your branch.
+5. Open a Pull Request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Aayush**
+
+Aspiring Software Engineer | Web Developer | Robotics Enthusiast
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, consider giving it a **⭐ Star** on GitHub.
+
+It helps others discover the project and motivates future improvements.
+
+---
+
+<p align="center">
+  <b>🚗 Share Ride — Helping Drivers Earn Without Owning a Vehicle.</b>
+</p>
